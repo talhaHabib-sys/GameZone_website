@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOKING</title>
+	<link rel="stylesheet" type="text/css" href="css/booking.css">
+	<h1 style="font-size: 80px;border-top: solid;border-bottom: dotted;   text-align: center;color: white;position:10px ; ">BOOKING</h1>
+
+
+</head>
+<body background="4eeb6f622d50054a4236ed822d8ef0c9.jpg">
+	<tbody>
+<fieldset>
+<legend style="font-size: medium;color: red;">PERSONAL INFO</legend>
+<div class="main2">
+<form>
+<center>
+<p style="color: white;font-size: medium;">NAME</p>
+<input type="text" name="s1" placeholder="Enter Name""><br>
+<p style="color: white;font-size: medium;">ADDRESS</p>
+<input type="text" name="s1" placeholder="Enter Address"><br>
+<p style="color: white;font-size: medium;">TELEPHONE NO</p>
+<input type="tel" name="s1" placeholder="Enter Telephone">
+</center>
+</form>
+</div>
+</fieldset>
+<fieldset>
+<br>
+<legend style="font-size: medium;color: red;">BOOKING DETAIL</legend>
+<div class="main2">
+<form>
+<center>
+<p style="color: white;font-size: medium;">BOOKING DATE</p>
+<input type="Date" name="s2" id="inp" required>
+<p style="color: white;font-size: medium;">NO OF HOURS</p>
+<input type="number" maxlength="2" value="0" step="1" required id="inp2">
+<br>
+<br>
+<input type="submit" value="CONFIRM" style="color: white;background-color: transparent;" id="inp3">
+</center>
+</form>
+</div>
+</fieldset>
+
+</tbody>
+</body>
+</html>
+<script type="text/javascript">
+	var a=document.getElementByid('inp2')
+	document.write(a);
+</script>
